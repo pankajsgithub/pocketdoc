@@ -1,0 +1,14 @@
+site_name: Pocket Doc
+
+# site_url: http://pocketdoc.org/home
+theme:
+  name: material
+  palette:
+    primary: blue grey
+    accent: red
+
+markdown_extensions:
+  - toc:
+      permalink: "#"
+      baselevel: 2
+      separator: "_"
