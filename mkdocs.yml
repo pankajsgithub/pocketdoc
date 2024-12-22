@@ -3,9 +3,14 @@ site_name: Pocket Doc
 # site_url: http://pocketdoc.org/home
 theme:
   name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    # - navigation.sections
 
   font:
     code: Roboto Mono
+
 
   palette:
 
